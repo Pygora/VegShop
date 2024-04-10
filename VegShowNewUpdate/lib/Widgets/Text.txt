@@ -1,0 +1,11 @@
+image: AssetImage('images/Bottom.png'),
+image: AssetImage('Veg/Tomato.png'),
+
+
+child: GestureDetector(
+                  onTap: () {
+                    // Navigate to the "AboutUs" page
+                    Navigator.pushNamed(context, '/aboutUs');
+                  },
+
+'\$$Potatoes/Ib',
